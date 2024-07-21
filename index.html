@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vayda</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@100..800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@100..800&family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- FONT -->
+</head>
+
+<body>
+    <div class="container">
+        <h1>VAYDA</h2>
+            <p>
+                We are not open to the public. If you
+                have arrived by invitation, please fill in
+                the form below, and we will be in touch.
+            </p>
+            <form id="contactForm">
+                <input type="text" id="name" name="name" placeholder="Name" required>
+
+                <input type="email" id="email" name="email" placeholder="Email" required>
+
+                <input type="tel" id="phone" name="phone" placeholder="Tel #" required>
+
+                <input type="text" id="social_media" name="Social media handle" placeholder="Social media handle"
+                    required>
+
+                <input type="text" id="invitee_full_name" name="Invitee full name" placeholder="Invitee full name"
+                    required>
+
+                <button type="submit">Submit</button>
+            </form>
+            <div id="errorMessages"></div>
+            <div id="successMessages"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
