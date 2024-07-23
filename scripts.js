@@ -24,11 +24,11 @@ document
     }
 
     if (!social_media) {
-      errorMessages += "<p>Please enter your Social media handle!</p>";
+      errorMessages += "<p>Please enter your IG  handle!</p>";
     }
 
     if (!invitee_full_name) {
-      errorMessages += "<p>Please enter your Invitee full name!</p>";
+      errorMessages += "<p>Please enter something!</p>";
     }
 
     if (errorMessages) {
@@ -42,8 +42,8 @@ document
         <li>Name: ${name}<br></li>
         <li>Email: ${email}<br></li>
         <li>Phone: ${phone}<br></li>
-        <li>Social media handle: ${social_media}<br></li>
-        <li>Invitee full name: ${invitee_full_name}<br></li>
+        <li>IG handle: ${social_media}<br></li>
+        <li>Who invited: ${invitee_full_name}<br></li>
         </ul>`,
         subject: "Vayda form",
       };
